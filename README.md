@@ -1,1 +1,5 @@
-# AWS Kanban Board
+# AWS Kanbandb
+
+## Dyanamo DB
+- Cards
+  - id (PK)

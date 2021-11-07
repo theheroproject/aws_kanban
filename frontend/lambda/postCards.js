@@ -3,7 +3,6 @@ var documentClient = new AWS.DynamoDB.DocumentClient({
   apiVersion: "2012-08-10",
 });
 const tableName = "Cards";
-
 exports.handler = async (event) => {
   console.log("Received: " + JSON.stringify(event, null, 2));
   let response = "";
